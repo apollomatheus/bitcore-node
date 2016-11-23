@@ -43,8 +43,8 @@
   ],
   "dependencies": {
     "async": "^1.3.0",
-    "bitcore-lib": "^0.13.13",
     "bitcoin-core": "https://github.com/BitGo/bitcoin-core",
+    "bitcore-lib": "^0.13.13",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
@@ -57,6 +57,7 @@
     "semver": "^5.0.1",
     "socket.io": "^1.4.5",
     "socket.io-client": "^1.4.5",
+    "ws": "1.1.1",
     "zmq": "^2.14.0"
   },
   "optionalDependencies": {
