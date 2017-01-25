@@ -175,16 +175,6 @@ describe('Node Functionality', function() {
         done();
       });
     });
-    it('can get unspent outputs for address', function(done) {
-      node.getAddressUnspentOutputs(address, false, function(err, results) {
-        if (err) {
-          throw err;
-        }
-        results.length.should.equal(1);
-        unspentOutput = outputForIsSpentTest1 = results[0];
-        done();
-      });
-    });
     it('correctly give the history for the address', function(done) {
       var options = {
         from: 0,

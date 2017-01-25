@@ -184,33 +184,6 @@ node.services.bitcoind.sendTransaction(transaction.serialize(), function(err, ha
 
 ### Addresses
 
-**Get Unspent Outputs**
-
-One of the most common uses will be to retrieve unspent outputs necessary to create a transaction, here is how to get the unspent outputs for an address:
-
-```js
-var address = 'mgY65WSfEmsyYaYPQaXhmXMeBhwp4EcsQW';
-node.services.bitcoind.getAddressUnspentOutputs(address, options, function(err, unspentOutputs) {
-  // see below
-});
-```
-
-The `unspentOutputs` will have the format:
-
-```js
-[
-  {
-    address: 'mgY65WSfEmsyYaYPQaXhmXMeBhwp4EcsQW',
-    txid: '9d956c5d324a1c2b12133f3242deff264a9b9f61be701311373998681b8c1769',
-    outputIndex: 1,
-    height: 150,
-    satoshis: 1000000000,
-    script: '76a9140b2f0a0c31bfe0406b0ccc1381fdbe311946dadc88ac',
-    confirmations: 3
-  }
-]
-```
-
 **View Balances**
 
 ```js
