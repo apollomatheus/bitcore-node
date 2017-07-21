@@ -42,7 +42,7 @@
   "dependencies": {
     "async": "^1.3.0",
     "bitcoin-core": "https://github.com/BitGo/bitcoin-core",
-    "bitcore-lib": "https://github.com/BitGo/bitcore-lib",
+    "bitcore-lib": "https://github.com/BitGo/bitcore-lib#2caa8dbfe5588e1b0b08349542031284f1750e9d",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
